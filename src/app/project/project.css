@@ -1,0 +1,88 @@
+.project-content {
+	padding: 20px 50px 50px;
+	row-gap: 30px;
+}
+
+.project-button-toggle {
+	width: 150px;
+	height: 43px;
+	line-height: 26px;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(16, 16, 16, 1);
+	font-size: 18px;
+	text-align: center;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+	font-family: Microsoft Yahei;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.project-title {
+	line-height: 25px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 36px;
+	text-align: left;
+	font-family: PingFangSC-regular;
+}
+
+.project-test-sn {
+	width: 108px;
+	height: 29px;
+	line-height: 29px;
+	color: rgba(16, 16, 16, 1);
+	font-size: 20px;
+	text-align: left;
+	font-family: PingFangSC-regular;
+}
+
+.project-test-input {
+	width: 357px;
+	height: 49px;
+	line-height: 20px;
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(136, 136, 136, 1);
+	font-size: 14px;
+	text-align: left;
+	font-family: Microsoft Yahei;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.project-test-start {
+	width: 208px;
+	height: 85px;
+	line-height: 52px;
+	border-radius: 4px;
+	background-color: rgba(22, 132, 252, 0.91);
+	color: rgba(255, 253, 253, 1);
+	font-size: 36px;
+	text-align: center;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+	font-family: Microsoft Yahei;
+	border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.project-state-text {
+	width: 452px;
+	height: 82px;
+	line-height: 20px;
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 20px;
+	text-align: center;
+	font-family: Roboto;
+}
+
+.project-state-text-wait {
+	color: rgba(187, 187, 187, 1);
+}
+
+.project-state-text-testing {
+	color: rgba(0, 0, 0, 1);
+}
+
+.project-state-text-pass {
+	color: rgba(15, 190, 19, 1);
+}
+
+.project-state-text-ng {
+	color: rgba(244, 6, 6, 1);
+}
