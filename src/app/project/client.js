@@ -1,6 +1,7 @@
 'use client';
 
 import { Box, Button, Text, Meter, Grid } from 'grommet';
+import Link from 'next/link';
 
 const row = 6;
 
@@ -43,7 +44,9 @@ const ProjectDetail = () => {
 	return (
 		<Box className='project-content'>
 			<Box direction='row' align='center' height={'63px'}>
-				<button className='project-button-toggle'>切换测试</button>
+				<Link legacyBehavior={true} href={'/'}>
+					<button className='project-button-toggle'>切换测试</button>
+				</Link>
 				<Box direction='row' justify='center' width={'100%'}>
 					<span className='project-title'>项目信息: </span>
 					<span className='project-title'>L1, L1, 富士康，贴片测试</span>
