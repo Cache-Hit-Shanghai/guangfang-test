@@ -38,6 +38,7 @@
 .project-test-input {
 	width: 357px;
 	height: 49px;
+	padding: 0 10px;
 	line-height: 20px;
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(136, 136, 136, 1);
@@ -85,4 +86,13 @@
 
 .project-state-text-ng {
 	color: rgba(244, 6, 6, 1);
+}
+
+.project-test-meter-process {
+	position: absolute;
+	color: rgba(22, 132, 252, 0.91);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 36px;
 }

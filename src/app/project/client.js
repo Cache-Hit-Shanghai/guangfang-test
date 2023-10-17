@@ -52,10 +52,11 @@ const ProjectDetail = () => {
 			<Box direction='row' align='center' justify='between'>
 				<Box gap='12px'>
 					<span className='project-test-sn'>被测设备SN</span>
-					<input className='project-test-input'></input>
+					<input placeholder='请输入被测设备SN' className='project-test-input'></input>
 				</Box>
-				<Box height={'176px'}>
+				<Box height={'176px'} style={{ position: 'relative' }}>
 					<Meter background={'#bbb'} color='rgba(22, 132, 252, 1)' value={35} type='circle'></Meter>
+					<span className='project-test-meter-process'>%35</span>
 				</Box>
 				<button className='project-test-start'>开始测试</button>
 			</Box>
@@ -72,8 +73,9 @@ const ProjectDetail = () => {
 					return [
 						{ k: 'name', v: name },
 						{ k: 'state', v: stateShow, s: state },
-					].map(({ k, v, s }) => (
+					].map(({ k, v, s }, j) => (
 						<Box
+							key={[i, j].join('-')}
 							justify='center'
 							align='center'
 							fill={true}
